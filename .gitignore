@@ -1,0 +1,29 @@
+# Secrets & local env
+.env
+.env.*
+!.env.example
+
+# Composer
+/vendor/
+
+# Build / runtime storage (keep the dirs, ignore contents)
+/storage/sites/*
+/storage/cache/*
+/storage/logs/*
+/storage/uploads/*
+/storage/tmp/*
+!/storage/**/.gitkeep
+
+# Generated
+/openapi/*.json
+
+# Tooling caches
+/.php-cs-fixer.cache
+/.phpunit.result.cache
+/.phpunit.cache/
+
+# Editor / OS
+/.idea/
+/.vscode/
+*.swp
+.DS_Store
